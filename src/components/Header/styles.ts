@@ -38,7 +38,7 @@ export const Navbar = styled.div`
     display: none;
   }
 
-  @media screen and (max-width: 940px) {
+  @media screen and (max-width: 900px) {
     .menu-icon {
       display: block;
     }
@@ -46,6 +46,48 @@ export const Navbar = styled.div`
     .user-icon,
     .favorite-icon {
       display: none;
+    }
+
+    .shopping-bag {
+      > p {
+        display: none;
+      }
+    }
+  }
+
+  @media screen and (min-width: 901px) {
+    .shopping-bag {
+      border: 1px solid #faa500;
+      border-radius: 8px;
+      height: 46px;
+      min-width: 134px;
+      padding: 0 14px 0 17px;
+    }
+
+    .search-icon {
+      display: none;
+    }
+
+    .user-icon,
+    .favorite-icon,
+    .shopping-bag {
+      font-size: 14px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      > img {
+        margin-right: 8px;
+      }
+    }
+
+    .user-icon {
+      margin-right: 39px;
+    }
+
+    .favorite-icon {
+      margin-right: 48px;
     }
   }
 
@@ -58,6 +100,11 @@ export const Navbar = styled.div`
     display: flex;
     justify-content: flex-end;
 
+    @media screen and (min-width: 901px) {
+      width: unset;
+      align-items: center;
+    }
+
     .search-icon {
       margin-right: 40px;
     }
@@ -65,6 +112,12 @@ export const Navbar = styled.div`
 `;
 
 export const SecondaryNavbar = styled.div<NavMobileProps>`
+  @media screen and (min-width: 901px) {
+    display: flex;
+    justify-content: center;
+    padding: 13px 0 14px 0;
+  }
+
   .menu-header,
   .close-btn {
     display: none;
@@ -140,6 +193,16 @@ export const SecondaryNavbar = styled.div<NavMobileProps>`
 export const NavItem = styled.a`
   display: flex;
   align-items: center;
+  cursor: pointer;
+
+  @media screen and (min-width: 901px) {
+    margin-right: 50px;
+    font-size: 0.875rem;
+
+    :last-child {
+      margin-right: 0;
+    }
+  }
 
   &#novidades {
     color: #faa500;
@@ -147,6 +210,7 @@ export const NavItem = styled.a`
 
     > img {
       margin-right: 9.75px;
+      height: 20px;
 
       @media screen and (max-width: 900px) {
         height: 24px;

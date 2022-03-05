@@ -62,6 +62,7 @@ export const Header: React.FC = () => {
 
           <span className="shopping-bag">
             <img src={ShoppingBag} alt="Search Icon" />
+            <p>Meu Carrinho</p>
           </span>
         </div>
       </Navbar>
@@ -87,16 +88,16 @@ export const Header: React.FC = () => {
           </span>
         </div>
 
-        <NavItem id="novidades">
+        <NavItem href="/" id="novidades">
           <img src={Dress} alt="Dress Icon" />
           Novidades
         </NavItem>
-        <NavItem>Vestidos</NavItem>
-        <NavItem>Roupas</NavItem>
-        <NavItem>Sapatos</NavItem>
-        <NavItem>Lingerie</NavItem>
-        <NavItem>Acessórios</NavItem>
-        <NavItem>OUTLET</NavItem>
+        <NavItem href="/">Vestidos</NavItem>
+        <NavItem href="/">Roupas</NavItem>
+        <NavItem href="/">Sapatos</NavItem>
+        <NavItem href="/">Lingerie</NavItem>
+        <NavItem href="/">Acessórios</NavItem>
+        <NavItem href="/">OUTLET</NavItem>
       </SecondaryNavbar>
 
       <Overlay
