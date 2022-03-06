@@ -1,9 +1,16 @@
 import styled from "styled-components";
 
+interface FooterLinksProps {
+  isOpen?: boolean;
+}
+
 export const Container = styled.div`
   position: relative;
   bottom: 0;
   left: 0;
+`;
+
+export const FooterInfo = styled.div`
   padding: 24px 80px 32px;
   background: #353535;
   display: flex;
@@ -59,4 +66,80 @@ export const DevelopedBy = styled(Row)`
   }
 `;
 
-export const FooterLinks = styled.div``;
+export const FooterLinks = styled.div`
+  background: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 20% 64px;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    padding: 37px 31px 56px 30px;
+  }
+`;
+
+export const LinksList = styled.div<FooterLinksProps>`
+  display: flex;
+  flex-direction: column;
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    transition: 0.8s;
+
+    @media screen and (max-width: 768px) {
+      max-height: 0;
+      overflow-y: hidden;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    &.active {
+      .list {
+        max-height: 200px;
+      }
+
+      > button {
+        .minus {
+          display: block;
+        }
+
+        .plus {
+          display: none;
+        }
+      }
+    }
+  }
+`;
+
+export const LinkTitle = styled.button<FooterLinksProps>`
+  width: fit-content;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #353535;
+  cursor: pointer;
+  margin-bottom: 25px;
+
+  .minus {
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    justify-content: space-between;
+    width: 100%;
+  }
+`;
+
+export const LinkItem = styled.a`
+  margin-bottom: 24px;
+
+  @media screen and (min-width: 900px) {
+    :last-child {
+      margin-bottom: 0;
+    }
+  }
+`;
