@@ -21,11 +21,14 @@ export const Shelf: React.FC = () => {
 
   useEffect(() => {
     async function fetchData() {
-      await fetch("http://localhost:3333/products", {
-        method: "GET",
-        mode: "cors",
-        cache: "default",
-      })
+      await fetch(
+        "https://my-json-server.typicode.com/NicolasOliveira861/maeztra-dev-test/products",
+        {
+          method: "GET",
+          mode: "cors",
+          cache: "default",
+        }
+      )
         .then((response) => response.json())
         .then((value) => setProducts(value));
     }
