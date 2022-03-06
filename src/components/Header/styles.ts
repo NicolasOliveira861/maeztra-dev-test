@@ -135,7 +135,7 @@ export const SecondaryNavbar = styled.div<NavMobileProps>`
     width: 93%;
     height: 100vh;
     background: #ffffff;
-    z-index: 10;
+    z-index: 20;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
     padding: 40px 20px;
     transition: 0.5s;
@@ -232,4 +232,5 @@ export const Overlay = styled.div<NavMobileProps>`
   left: 0;
   width: 100vw;
   height: 100vh;
+  z-index: 12;
 `;

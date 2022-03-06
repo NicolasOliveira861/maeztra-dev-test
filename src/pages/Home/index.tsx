@@ -6,6 +6,8 @@ import Banner from "assets/img/banner-home.png";
 import BannerMobile from "assets/img/banner-home-mobile.png";
 import ArrowIcon from "assets/svg/arrow.svg";
 import { Header } from "components/Header";
+import { Tipbar } from "components/Tipbar";
+
 import { Container, Panel } from "./styles";
 
 const Home: React.FC = () => {
@@ -60,6 +62,8 @@ const Home: React.FC = () => {
           <div className="flicking-pagination" />
         </ViewportSlot>
       </Flicking>
+
+      <Tipbar />
     </Container>
   );
 };
