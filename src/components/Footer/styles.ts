@@ -121,16 +121,25 @@ export const LinkTitle = styled.button<FooterLinksProps>`
   display: flex;
   align-items: center;
   color: #353535;
-  cursor: pointer;
   margin-bottom: 25px;
+  pointer-events: none;
 
   .minus {
+    display: none;
+  }
+
+  .plus {
     display: none;
   }
 
   @media screen and (max-width: 768px) {
     justify-content: space-between;
     width: 100%;
+    cursor: pointer;
+
+    .plus {
+      display: block;
+    }
   }
 `;
 

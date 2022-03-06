@@ -7,6 +7,7 @@ import Favorite from "assets/svg/favorite.svg";
 import Dress from "assets/svg/dress.svg";
 import CloseIcon from "assets/svg/close.svg";
 import ShoppingBag from "assets/svg/shopping-bag.svg";
+import { SearchBar } from "components/SearchBar";
 
 import {
   Container,
@@ -44,6 +45,8 @@ export const Header: React.FC = () => {
         <div className="logo">
           <img src={Logo} alt="Logo Maeztra" />
         </div>
+
+        <SearchBar />
 
         <div className="icons">
           <span className="search-icon">

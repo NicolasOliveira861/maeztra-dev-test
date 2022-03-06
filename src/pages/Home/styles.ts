@@ -136,3 +136,62 @@ export const Panel = styled.div`
     }
   }
 `;
+
+export const NewCollection = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding: 0 31px 39px;
+
+  @media screen and (min-width: 900px) {
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+
+    .content {
+      flex: 40%;
+    }
+
+    .image-container {
+      flex: 60%;
+      height: 480px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+
+      > img {
+        object-fit: contain;
+        max-height: 100%;
+        min-width: unset;
+        width: 100%;
+      }
+    }
+  }
+
+  .content {
+    .title {
+      font-weight: bold;
+      font-size: 1.5rem;
+      line-height: 37px;
+      color: #000000;
+      margin-bottom: 16px;
+    }
+
+    .description {
+      font-weight: normal;
+      font-size: 0.875rem;
+      line-height: 21px;
+      color: #000000;
+      margin-bottom: 24px;
+      width: 85%;
+    }
+  }
+
+  .image-container {
+    > img {
+      border-radius: 4px;
+      object-fit: contain;
+      min-width: 100%;
+    }
+  }
+`;

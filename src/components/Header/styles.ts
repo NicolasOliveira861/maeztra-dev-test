@@ -16,7 +16,7 @@ export const Topbar = styled.div`
   height: 24px;
   background: #353535;
   color: #000000;
-  font-size: 10px;
+  font-size: 0.625rem;
   line-height: 18px;
   display: flex;
   justify-content: center;
@@ -24,6 +24,10 @@ export const Topbar = styled.div`
   text-align: center;
   color: #ffffff;
   font-weight: 400;
+
+  @media screen and (min-width: 1440px) {
+    font-size: 0.75rem;
+  }
 `;
 
 export const Navbar = styled.div`
