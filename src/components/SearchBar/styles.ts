@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const Search = styled.div``;
+export const Search = styled.div`
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
+`;
 
 export const Bar = styled.input`
   background: #efefef;

@@ -136,6 +136,7 @@ export const LinkTitle = styled.button<FooterLinksProps>`
     justify-content: space-between;
     width: 100%;
     cursor: pointer;
+    pointer-events: all;
 
     .plus {
       display: block;

@@ -2,7 +2,7 @@ import { productProps } from "libs/productProps";
 import React, { useEffect, useState } from "react";
 import Flicking, { ViewportSlot } from "@egjs/react-flicking";
 import "@egjs/react-flicking/dist/flicking.css";
-import { Arrow, Pagination } from "@egjs/flicking-plugins";
+import { Arrow } from "@egjs/flicking-plugins";
 import ArrowIcon from "assets/svg/arrow.svg";
 import {
   AddToCartBtn,
@@ -48,7 +48,11 @@ export const Shelf: React.FC = () => {
       panels = 2;
     }
 
-    if (window.innerWidth < 768) {
+    if (window.innerWidth <= 768 && window.innerWidth > 560) {
+      panels = 2;
+    }
+
+    if (window.innerWidth < 560) {
       panels = 1;
     }
 
