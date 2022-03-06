@@ -1,3 +1,3 @@
 # maeztra-dev-test
 
-Project developed to test my skills and show them to the Tech Leads at Maeztra company.
+Criei esse projeto para demonstrar minhas habilidades para os Tech Leads da empresa Maeztra. Fiz toda a aplicação usando ReactJS e Typescript. Para estilizações usei a lib "styled-components" e para demonstrar meus conhecimentos em VTEX eu simulei um database com a lib "json-server", no formato que a VTEX normalmente traz para os devs poderem desenvolver páginas com produto e afins. Para os sliders usei a lib "Flicking", por ser mais editável por css. E pro popup de newsletter eu usei a lib "universal-cookies" pra poder setar cookies, caso a pessoa feche, o popup não volta abrir em toda página que ela estiver, recurso bem legal que aprendi com meu tempo trabalhando com VTEX. Espero que gostem do meu projeto!
