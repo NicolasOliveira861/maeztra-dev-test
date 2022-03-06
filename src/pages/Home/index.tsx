@@ -7,6 +7,8 @@ import BannerMobile from "assets/img/banner-home-mobile.png";
 import ArrowIcon from "assets/svg/arrow.svg";
 import { Header } from "components/Header";
 import { Tipbar } from "components/Tipbar";
+import { BrandsSlider } from "components/Brands";
+import { Footer } from "components/Footer";
 
 import { Container, Panel } from "./styles";
 
@@ -64,6 +66,10 @@ const Home: React.FC = () => {
       </Flicking>
 
       <Tipbar />
+
+      <BrandsSlider />
+
+      <Footer />
     </Container>
   );
 };

@@ -12,8 +12,8 @@ export const Tipbar: React.FC = () => {
   return (
     <Container>
       <span className="title">Por que comprar na Maeztra?</span>
-      {window.outerWidth < 1400 ? (
-        <Flicking align={window.outerWidth < 768 ? "center" : "prev"}>
+      {window.innerWidth < 1700 ? (
+        <Flicking align={window.innerWidth < 768 ? "center" : "prev"}>
           <Box>
             <div className="img-container">
               <img src={Planet} alt="Planet Icon" />
