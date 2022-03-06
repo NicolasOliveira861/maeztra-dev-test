@@ -1,0 +1,198 @@
+{
+  "products": [
+    {
+      "productId": "273",
+      "name": "Faux Suede Mini Skirt",
+      "description": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
+      "productImage": ["/assets/fauz-suede-mini-skirt.png"],
+      "skus": [
+        {
+          "sku": "2731",
+          "skuname": "Bege M",
+          "skucolor": "#DEAC71",
+          "bestPriceFormatted": "R$ 27,99"
+        },
+        {
+          "sku": "2732",
+          "skuname": "Vermelho G",
+          "skucolor": "#D37164",
+          "bestPriceFormatted": "R$ 29,99"
+        },
+        {
+          "sku": "2733",
+          "skuname": "Azul P",
+          "skucolor": "#6497D3",
+          "bestPriceFormatted": "R$ 25,99"
+        },
+        {
+          "sku": "2734",
+          "skuname": "Roxo GG",
+          "skucolor": "#3C3B79",
+          "bestPriceFormatted": "R$ 32,99"
+        }
+      ]
+    },
+    {
+      "productId": "274",
+      "name": "Ruched Rose Print Mini Skirt",
+      "description": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
+      "productImage": ["/assets/ruched-rose-print-mini-skirt.png"],
+      "skus": [
+        {
+          "sku": "2741",
+          "skuname": "Preto P",
+          "skucolor": "#1C1A19",
+          "bestPriceFormatted": "R$ 27,99"
+        },
+        {
+          "sku": "2742",
+          "skuname": "Vermelho M",
+          "skucolor": "#D84E4B",
+          "bestPriceFormatted": "R$ 28,99"
+        },
+        {
+          "sku": "2743",
+          "skuname": "Creme G",
+          "skucolor": "#CFC9B0",
+          "bestPriceFormatted": "R$ 32,99"
+        },
+        {
+          "sku": "2744",
+          "skuname": "Cinza PP",
+          "skucolor": "#EAE9E5",
+          "bestPriceFormatted": "R$ 24,99"
+        }
+      ]
+    },
+
+    {
+      "productId": "273",
+      "name": "Faux Suede Mini Skirt",
+      "description": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
+      "productImage": ["/assets/fauz-suede-mini-skirt.png"],
+      "skus": [
+        {
+          "sku": "2731",
+          "skuname": "Bege M",
+          "skucolor": "#DEAC71",
+          "bestPriceFormatted": "R$ 27,99"
+        },
+        {
+          "sku": "2732",
+          "skuname": "Vermelho G",
+          "skucolor": "#D37164",
+          "bestPriceFormatted": "R$ 29,99"
+        },
+        {
+          "sku": "2733",
+          "skuname": "Azul P",
+          "skucolor": "#6497D3",
+          "bestPriceFormatted": "R$ 25,99"
+        },
+        {
+          "sku": "2734",
+          "skuname": "Roxo GG",
+          "skucolor": "#3C3B79",
+          "bestPriceFormatted": "R$ 32,99"
+        }
+      ]
+    },
+    {
+      "productId": "274",
+      "name": "Ruched Rose Print Mini Skirt",
+      "description": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
+      "productImage": ["/assets/ruched-rose-print-mini-skirt.png"],
+      "skus": [
+        {
+          "sku": "2741",
+          "skuname": "Preto P",
+          "skucolor": "#1C1A19",
+          "bestPriceFormatted": "R$ 27,99"
+        },
+        {
+          "sku": "2742",
+          "skuname": "Vermelho M",
+          "skucolor": "#D84E4B",
+          "bestPriceFormatted": "R$ 28,99"
+        },
+        {
+          "sku": "2743",
+          "skuname": "Creme G",
+          "skucolor": "#CFC9B0",
+          "bestPriceFormatted": "R$ 32,99"
+        },
+        {
+          "sku": "2744",
+          "skuname": "Cinza PP",
+          "skucolor": "#EAE9E5",
+          "bestPriceFormatted": "R$ 24,99"
+        }
+      ]
+    },
+
+    {
+      "productId": "273",
+      "name": "Faux Suede Mini Skirt",
+      "description": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
+      "productImage": ["/assets/fauz-suede-mini-skirt.png"],
+      "skus": [
+        {
+          "sku": "2731",
+          "skuname": "Bege M",
+          "skucolor": "#DEAC71",
+          "bestPriceFormatted": "R$ 27,99"
+        },
+        {
+          "sku": "2732",
+          "skuname": "Vermelho G",
+          "skucolor": "#D37164",
+          "bestPriceFormatted": "R$ 29,99"
+        },
+        {
+          "sku": "2733",
+          "skuname": "Azul P",
+          "skucolor": "#6497D3",
+          "bestPriceFormatted": "R$ 25,99"
+        },
+        {
+          "sku": "2734",
+          "skuname": "Roxo GG",
+          "skucolor": "#3C3B79",
+          "bestPriceFormatted": "R$ 32,99"
+        }
+      ]
+    },
+    {
+      "productId": "274",
+      "name": "Ruched Rose Print Mini Skirt",
+      "description": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
+      "productImage": ["/assets/ruched-rose-print-mini-skirt.png"],
+      "skus": [
+        {
+          "sku": "2741",
+          "skuname": "Preto P",
+          "skucolor": "#1C1A19",
+          "bestPriceFormatted": "R$ 27,99"
+        },
+        {
+          "sku": "2742",
+          "skuname": "Vermelho M",
+          "skucolor": "#D84E4B",
+          "bestPriceFormatted": "R$ 28,99"
+        },
+        {
+          "sku": "2743",
+          "skuname": "Creme G",
+          "skucolor": "#CFC9B0",
+          "bestPriceFormatted": "R$ 32,99"
+        },
+        {
+          "sku": "2744",
+          "skuname": "Cinza PP",
+          "skucolor": "#EAE9E5",
+          "bestPriceFormatted": "R$ 24,99"
+        }
+      ]
+    }
+  ]
+}

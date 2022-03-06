@@ -4,7 +4,7 @@ export const Container = styled.div`
   position: relative;
   min-height: 100vh;
 
-  .flicking-viewport {
+  > .flicking-viewport {
     .flicking-arrow-prev,
     .flicking-arrow-next {
       position: absolute;

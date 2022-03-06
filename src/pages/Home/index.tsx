@@ -9,6 +9,7 @@ import { Header } from "components/Header";
 import { Tipbar } from "components/Tipbar";
 import { BrandsSlider } from "components/Brands";
 import { Footer } from "components/Footer";
+import { Shelf } from "components/Shelf";
 
 import { Container, Panel } from "./styles";
 
@@ -66,8 +67,8 @@ const Home: React.FC = () => {
       </Flicking>
 
       <Tipbar />
-
       <BrandsSlider />
+      <Shelf />
 
       <Footer />
     </Container>
