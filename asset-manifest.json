@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/maeztra-dev-test/static/css/main.913e46f1.css",
-    "main.js": "/maeztra-dev-test/static/js/main.598187b9.js",
+    "main.js": "/maeztra-dev-test/static/js/main.f58bf6b5.js",
     "static/js/651.d42cddb7.chunk.js": "/maeztra-dev-test/static/js/651.d42cddb7.chunk.js",
     "static/media/banner-home.png": "/maeztra-dev-test/static/media/banner-home.26e3fea8b0e8d8fe0568.png",
     "static/media/new-collection-desktop.png": "/maeztra-dev-test/static/media/new-collection-desktop.2a7fbfad3b3221d1e344.png",
@@ -26,11 +26,11 @@
     "static/media/arrow.svg": "/maeztra-dev-test/static/media/arrow.83030888e4ee25c194d8464beaed9248.svg",
     "static/media/close.svg": "/maeztra-dev-test/static/media/close.2001e956d267bc9b1a2349ee0a8ee521.svg",
     "main.913e46f1.css.map": "/maeztra-dev-test/static/css/main.913e46f1.css.map",
-    "main.598187b9.js.map": "/maeztra-dev-test/static/js/main.598187b9.js.map",
+    "main.f58bf6b5.js.map": "/maeztra-dev-test/static/js/main.f58bf6b5.js.map",
     "651.d42cddb7.chunk.js.map": "/maeztra-dev-test/static/js/651.d42cddb7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.913e46f1.css",
-    "static/js/main.598187b9.js"
+    "static/js/main.f58bf6b5.js"
   ]
 }
