@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   margin-top: 40px;
+
+  @media screen and (min-width: 1024px) {
+    margin-left: 15px;
+  }
 `;
 
 export const Title = styled.div`
