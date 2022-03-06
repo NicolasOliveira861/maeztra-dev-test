@@ -1,0 +1,2 @@
+.flicking-viewport{overflow:hidden;position:relative}.flicking-camera{display:flex;flex-direction:row;height:100%;position:relative;width:100%;z-index:1}.flicking-camera>*{flex-shrink:0}.flicking-viewport.vertical{display:inline-flex}.flicking-viewport.vertical>.flicking-camera{display:inline-flex;flex-direction:column}.flicking-viewport.flicking-hidden .flicking-camera>*{visibility:hidden}
+/*# sourceMappingURL=main.913e46f1.css.map*/
